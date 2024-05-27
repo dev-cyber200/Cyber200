@@ -1,0 +1,88 @@
+baseURL: "https://www.cyber200.com/"
+theme: "up-business-theme"
+languageCode: "en-us"
+
+title: "Cyber200"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "Cyber200"
+  description: "We empower organizations to navigate the digital landscape securely and confidently by providing advanced cybersecurity solutions."
+  images: 
+    - "images/hero-image.png"
+
+  logo: "logo.webp"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    instagram: "#"
+    facebook: "#"
+    twitter: "#"
+
+  contact:
+    - "support@cyber200.com"
+    
+
+  copyright: "© 2024 Cyber200 All Rights Reserved"
+
+menus:
+  main:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "How we work"
+      url: "/#"
+      weight: 2
+
+    - name: "Our team"
+      url: "/#"
+      weight: 3
+
+    - name: "Pricing"
+      url: "/#"
+      weight: 4
+
+    - name: "Blog"
+      url: "/blog"
+      weight: 5
+
+  buttons:
+    - name: "Book a call"
+      url: "/#"
+      weight: 5
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "How we work"
+      url: "/#"
+      weight: 2
+
+    - name: "Pricing"
+      url: "/#"
+      weight: 4
+
+    - name: "Blog"
+      url: "/blog"
+      weight: 5
+
+taxonomies:
+  series: "series"
+  tags: "tags"
+
+services:
+  disqus:
+    shortname: cyber200
+
+paginate: 5

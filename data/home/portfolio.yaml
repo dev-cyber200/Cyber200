@@ -1,0 +1,41 @@
+enabled: true
+id: "portfolio"
+
+content:
+  - image: "images/ai.webp"
+    pretitle: ""
+    title: "AI-powered analytics and insights"
+    text: "Leverages advanced machine learning algorithms, natural language processing, and data mining techniques to transform raw data into meaningful information that can drive strategic decisions."
+
+    buttons: 
+      - label: "See live | coming soon..."
+        url: "#"
+
+      - label: "Read more | coming soon..."
+        url: "#"
+
+  - image: "images/thread-detection.webp"
+    pretitle: ""
+    title: "Advanced threat detection and prevention"
+    text: "Provide organizations with the tools and expertise needed to defend against sophisticated cyber threats, ensuring the security and integrity of their digital assets, neutralize potential security threats before they can cause significant harm."
+
+    buttons: 
+      - label: "See live | coming soon..."
+        url: "#"
+
+      - label: "Read more | coming soon..."
+        url: "#"
+
+  - image: "images/iot.webp"
+    pretitle: ""
+    title: "Cloud and edge computing security solutions"
+    text: "Ensure sensitive information remains secure and private while enabling efficient, scalable, and reliable operations, provide comprehensive protection for modern computing environments. Maintaine robust security and privacy standards and leverage the benefits of cloud and edge technologies."
+
+    buttons: 
+      - label: "See live | coming soon..."
+        url: "#"
+
+      - label: "Read more | coming soon..."
+        url: "#"
+
+  

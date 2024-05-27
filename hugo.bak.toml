@@ -1,0 +1,19 @@
+baseURL = 'https://cyber200.com'
+languageCode = 'en-us'
+title = 'Cyber200'
+theme = 'ananke' 
+enableGitInfo = true
+enableEmoji = true
+[imaging]
+  bgColor = '#ffffff'
+  hint = 'photo'
+  quality = 75
+  resampleFilter = 'box'
+[taxonomies]
+  category = 'education'
+  tag = '2024'
+  series = 'Yocto'
+  tags_weight = 22
+[services]
+  [services.disqus]
+    shortname = 'your-disqus-shortname'

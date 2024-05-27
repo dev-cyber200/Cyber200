@@ -1,0 +1,9 @@
+enabled: true
+id: "brands"
+
+content:
+  title: "Brands and startups work with us "
+  items:
+    - "images/placeholder.png"
+    - "images/placeholder.png"
+    - "images/placeholder.png"

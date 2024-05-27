@@ -1,0 +1,15 @@
+enabled: true
+id: "hero"
+
+content:
+  title: "Tailored Solutions"
+  text: "Cyber200 is dedicated to safeguarding digital assets and enhancing technological infrastructure for businesses of all sizes. Our mission is to provide advanced, reliable, and innovative security solutions that protect our clients' critical data and systems from evolving cyber threats."
+
+  buttonPrimary:
+    label: "How we work"
+    url: "#"
+
+  buttonSecondary:
+    label: "Let's talk | comming soon..."
+    url: ""
+

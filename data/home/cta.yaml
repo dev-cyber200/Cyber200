@@ -1,0 +1,9 @@
+enabled: false
+id: "cta"
+
+content:
+  title: "24/7 support for handling security concerns"
+  image: "images/support.webp"
+  button:
+    label: "Let's talk"
+    url: "#"
