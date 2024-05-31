@@ -25,6 +25,7 @@ params:
     instagram: "#"
     facebook: "#"
     twitter: "#"
+    github: "#"
 
   contact:
     - "support@cyber200.com"

@@ -33,11 +33,6 @@
   
   <div>
     <time>{{ .Date.Format (default "2006-01-02 15:04:05" .Site.Params.dateFmt) }}</time>
-    {{ with .Params.categories }}<span>in</span>{{ end }}
-    {{ range $key, $value := .Params.categories -}}
-    {{- if $key }}, {{ end }}
-    <a href="{{ "/categories/" | relLangURL }}{{ $value | urlize }}">{{ . }}</a>
-    {{- end }}
    {{ with .WordCount }}<span> • {{ . }} words</span>{{ end }}
    {{ with .ReadingTime}}<span> • {{ $duration }} minute read</span>{{ end }}
     {{ with .Params.tags }}
