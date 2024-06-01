@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dev-Kit on Cyber200</title>
+    <link>http://localhost:1313/tags/dev-kit/</link>
+    <description>Recent content in Dev-Kit on Cyber200</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/dev-kit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SSH master</title>
+      <link>http://localhost:1313/post/ssh-master/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/ssh-master/</guid>
+      <description>Overview SSH (Secure Shell) is a protocol used to securely connect to remote systems over an unsecured network, It was designed to replace earlier insecure protocols such as Telnet, rlogin, and FTP by providing a secure channel over an unsecured network by using a client-server architecture, encryption, and authentication mechanisms.</description>
+    </item>
+    <item>
+      <title>Cloudflare Pages</title>
+      <link>http://localhost:1313/post/cloudflare-pages/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/cloudflare-pages/</guid>
+      <description>What is Cloudflare Pages? Cloudflare Pages is a JAMstack platform for deploying static websites. As part of Cloudflare&amp;rsquo;s suite of web performance and security services, Cloudflare Pages leverages the global Cloudflare network to deliver high-speed, secure, and scalable web experiences.</description>
+    </item>
+    <item>
+      <title>The Power of Github Actions</title>
+      <link>http://localhost:1313/post/github-action/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/github-action/</guid>
+      <description>What is GitHub Actions? GitHub Actions is a CI/CD (Continuous Integration and Continuous Deployment) platform that allows developers to automate their build, test, and deployment pipelines directly from their GitHub repositories.</description>
+    </item>
+    <item>
+      <title>The Terminal Multiplexer: TMUX</title>
+      <link>http://localhost:1313/post/tmux/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/tmux/</guid>
+      <description>What is tmux? tmux, short for terminal multiplexer, is a powerful command-line utility that allows users to manage multiple terminal sessions from a single window.</description>
+    </item>
+  </channel>
+</rss>

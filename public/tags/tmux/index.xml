@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tmux on Cyber200</title>
+    <link>http://localhost:1313/tags/tmux/</link>
+    <description>Recent content in Tmux on Cyber200</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tmux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Terminal Multiplexer: TMUX</title>
+      <link>http://localhost:1313/post/tmux/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/tmux/</guid>
+      <description>What is tmux? tmux, short for terminal multiplexer, is a powerful command-line utility that allows users to manage multiple terminal sessions from a single window.</description>
+    </item>
+  </channel>
+</rss>
