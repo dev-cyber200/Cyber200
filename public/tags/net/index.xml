@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Net on Cyber200</title>
+    <link>http://localhost:1313/tags/net/</link>
+    <description>Recent content in Net on Cyber200</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network Drivers In Linux</title>
+      <link>http://localhost:1313/post/network-drivers-in-linux/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/network-drivers-in-linux/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
