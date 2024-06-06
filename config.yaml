@@ -22,10 +22,9 @@ params:
     faviconColor: "#000000"
 
   social:
+    github: "https://github.com/dev-cyber200"
+    twitter: "https://x.com/Cyber200_Dev"
     instagram: "#"
-    facebook: "#"
-    twitter: "#"
-    github: "#"
 
   contact:
     - "support@cyber200.com"
