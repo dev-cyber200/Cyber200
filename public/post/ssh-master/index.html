@@ -57,7 +57,7 @@
   <meta itemprop="description" content="SSH provides a robust and secure method for connecting to remote systems. Its combination of encryption, authentication, and advanced features make it an indispensable tool for system administrators, developers, and anyone who needs secure remote access to servers and other networked devices">
   <meta itemprop="datePublished" content="2024-06-01T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-06-01T00:00:00+00:00">
-  <meta itemprop="wordCount" content="629">
+  <meta itemprop="wordCount" content="791">
   <meta itemprop="image" content="http://localhost:1313/images/hero-image.png">
   <meta itemprop="keywords" content="Ssh,Dev-Kit">
 
@@ -229,8 +229,8 @@
     <a href="/tags/ssh">ssh</a>, 
     <a href="/tags/dev-kit">dev-kit</a>
 
-<span> • 629 words</span>
-<span> • 3 minute read</span>
+<span> • 791 words</span>
+<span> • 4 minute read</span>
 
    
   </div>
@@ -324,11 +324,13 @@ After the secure channel is established, the client needs to authenticate itself
 </ul>
 <h2 id="advanced-features-of-ssh">Advanced Features of SSH</h2>
 <ul>
-<li>
-<p>Port Forwarding:</p>
+<li>Port Forwarding:
 <ul>
-<li>SSH can tunnel other network connections through the secure SSH connection.</li>
-<li>Local Port Forwarding: Redirects traffic from a local port to a remote address via the SSH server.
+<li>
+<p>SSH can tunnel other network connections through the secure SSH connection.</p>
+</li>
+<li>
+<p>Local Port Forwarding: Redirects traffic from a local port to a remote address via the SSH server.</p>
 <ul>
 <li>It forwards a port from your local machine to a remote server. This can be useful for accessing services on a remote server as if they were running on your local machine.</li>
 <li>Example Scenario:</li>
@@ -341,10 +343,40 @@ After the secure channel is established, the client needs to authenticate itself
 <li><a href="mailto:user@remote.example.com">user@remote.example.com</a>: Your SSH login credentials for the remote server.</li>
 </ul>
 </li>
-</ul>
+<li>
+<p>Remote Port Forwarding: Redirects traffic from a remote port to a local address via the SSH client.</p>
 <ul>
-<li>Remote Port Forwarding: Redirects traffic from a remote port to a local address via the SSH client.</li>
-<li>Dynamic Port Forwarding: Uses SOCKS proxy to dynamically forward traffic to various destinations.</li>
+<li>It allows you to forward a port from a remote server to your local machine. This can be useful for exposing a service on your local machine to users on a remote server.</li>
+<li>Example Scenario:</li>
+<li>You want to allow users on the remote server (remote.example.com) to access a web application running on port 8080 on your local machine.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>ssh -R 9090:localhost:8080 user@remote.example.com
+</span></span></code></pre></div><ul>
+<li>-R: Specifies remote port forwarding.</li>
+<li>9090:localhost:8080: Redirects traffic from localhost:9090 on the remote server to localhost:8080 on your local machine.</li>
+<li><a href="mailto:user@remote.example.com">user@remote.example.com</a>: Your SSH login credentials for the remote server.</li>
+</ul>
+</li>
+<li>
+<p>Dynamic Port Forwarding: Uses SOCKS proxy to dynamically forward traffic to various destinations.</p>
+<ul>
+<li>
+<p>It allows you to create a SOCKS proxy server that dynamically handles connections to various remote addresses and ports, providing more flexibility.</p>
+</li>
+<li>
+<p>Example Scenario:</p>
+</li>
+<li>
+<p>You want to route your web browser&rsquo;s traffic through an SSH server to securely access various websites.</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>ssh -D <span style="color:#ae81ff">1080</span> user@remote.example.com
+</span></span></code></pre></div><ul>
+<li>-D: Specifies dynamic port forwarding.</li>
+<li>1080: The local port on which the SOCKS proxy server will listen.</li>
+<li><a href="mailto:user@remote.example.com">user@remote.example.com</a>: Your SSH login credentials for the remote server.</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
