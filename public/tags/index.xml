@@ -6,15 +6,8 @@
     <description>Recent content in Tags on Cyber200</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hardware</title>
-      <link>http://localhost:1313/tags/hardware/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hardware/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Index</title>
       <link>http://localhost:1313/tags/index/</link>
@@ -30,10 +23,24 @@
       <description></description>
     </item>
     <item>
-      <title>Network</title>
-      <link>http://localhost:1313/tags/network/</link>
+      <title>Log</title>
+      <link>http://localhost:1313/tags/log/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/network/</guid>
+      <guid>http://localhost:1313/tags/log/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardware</title>
+      <link>http://localhost:1313/tags/hardware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hardware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Networks</title>
+      <link>http://localhost:1313/tags/networks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/networks/</guid>
       <description></description>
     </item>
     <item>
@@ -69,6 +76,27 @@
       <link>http://localhost:1313/tags/tmux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/tmux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Css</title>
+      <link>http://localhost:1313/tags/css/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Html</title>
+      <link>http://localhost:1313/tags/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost:1313/tags/markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/markdown/</guid>
       <description></description>
     </item>
   </channel>

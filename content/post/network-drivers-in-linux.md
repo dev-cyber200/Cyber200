@@ -4,7 +4,7 @@ title = "Network Drivers In Linux"
 date = "2024-06-05"
 description = "Linux supports a wide variety of Ethernet network interface cards through its extensive collection of network drivers. Each driver is tailored to support specific hardware and provides features suited to different network speeds and capabilities."
 tags = [
-    "network",
+    "networks",
     "hardware",
     "linux",
 ]

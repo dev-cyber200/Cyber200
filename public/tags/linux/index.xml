@@ -6,8 +6,15 @@
     <description>Recent content in Linux on Cyber200</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Log Management In Linux</title>
+      <link>http://localhost:1313/post/log-management-in-linux/</link>
+      <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/log-management-in-linux/</guid>
+      <description>Managing logs on a Linux system is crucial for maintaining system health, diagnosing issues, and ensuring security. common methods and tools are:</description>
+    </item>
     <item>
       <title>Network Drivers In Linux</title>
       <link>http://localhost:1313/post/network-drivers-in-linux/</link>
