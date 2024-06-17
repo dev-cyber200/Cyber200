@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Cyber200</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security Audit Report Template</title>
+      <link>http://localhost:1313/post/security-audit-reports/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/security-audit-reports/</guid>
+      <description>1. Executive Summary Objective The objective of this security audit was to evaluate the current security posture of ABC Corporation’s IT infrastructure, identify vulnerabilities, and provide actionable recommendations to enhance security.</description>
+    </item>
     <item>
       <title>Review and Audit</title>
       <link>http://localhost:1313/post/review-and-audit/</link>
@@ -98,13 +105,6 @@
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/tmux/</guid>
       <description>What is tmux? tmux, short for terminal multiplexer, is a powerful command-line utility that allows users to manage multiple terminal sessions from a single window.</description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/post/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

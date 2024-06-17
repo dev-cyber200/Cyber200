@@ -6,8 +6,15 @@
     <description>Recent content in Cyber-Security on Cyber200</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/cyber-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security Audit Report Template</title>
+      <link>http://localhost:1313/post/security-audit-reports/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/security-audit-reports/</guid>
+      <description>1. Executive Summary Objective The objective of this security audit was to evaluate the current security posture of ABC Corporation’s IT infrastructure, identify vulnerabilities, and provide actionable recommendations to enhance security.</description>
+    </item>
     <item>
       <title>Review and Audit</title>
       <link>http://localhost:1313/post/review-and-audit/</link>

@@ -75,24 +75,28 @@ Once authentication is successful, the SSH session begins. All data transmitted 
     * Local Port Forwarding: Redirects traffic from a local port to a remote address via the SSH server. 
         * It forwards a port from your local machine to a remote server. This can be useful for accessing services on a remote server as if they were running on your local machine.
         * Example Scenario:
-        * You want to access a web application running on port 8080 on a remote server (remote.example.com) from your local machine on port 8080.
+        * You want to access a web application running on port 8080 on a remote server (rt.com) from your local machine on port 8080.
+        
         ```sh
-        ssh -L 8080:localhost:8080 user@remote.example.com
+        ssh -L 8080:localhost:8080 user@rt.com
         ```
+        
         * L: Specifies local port forwarding.
         * 8080:localhost:8080: Redirects traffic from localhost:8080 on your local machine to localhost:8080 on the remote server.
-        * user@remote.example.com: Your SSH login credentials for the remote server.
+        * user@rt.com: Your SSH login credentials for the remote server.
 
     * Remote Port Forwarding: Redirects traffic from a remote port to a local address via the SSH client.
         * It allows you to forward a port from a remote server to your local machine. This can be useful for exposing a service on your local machine to users on a remote server.
         * Example Scenario:
-        * You want to allow users on the remote server (remote.example.com) to access a web application running on port 8080 on your local machine.
+        * You want to allow users on the remote server (rt.com) to access a web application running on port 8080 on your local machine.
+
         ```sh
-        ssh -R 9090:localhost:8080 user@remote.example.com
+        ssh -R 9090:localhost:8080 user@rt.com
         ```
+
         * -R: Specifies remote port forwarding.
         * 9090:localhost:8080: Redirects traffic from localhost:9090 on the remote server to localhost:8080 on your local machine.
-        * user@remote.example.com: Your SSH login credentials for the remote server.
+        * user@rt.com: Your SSH login credentials for the remote server.
 
 
 
@@ -101,12 +105,14 @@ Once authentication is successful, the SSH session begins. All data transmitted 
 
         * Example Scenario:
         * You want to route your web browser's traffic through an SSH server to securely access various websites.
+
         ```sh
-        ssh -D 1080 user@remote.example.com
+        ssh -D 1080 user@rt.com
         ```
+
         * -D: Specifies dynamic port forwarding.
         * 1080: The local port on which the SOCKS proxy server will listen.
-        * user@remote.example.com: Your SSH login credentials for the remote server.
+        * user@rt.com: Your SSH login credentials for the remote server.
 - X11 Forwarding:
 
     - SSH can securely forward X11 graphical applications from a remote server to the local client.

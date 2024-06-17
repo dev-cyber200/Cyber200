@@ -23,14 +23,16 @@ tags = [
 - Impact - Measures the consequence of a successful attack.
 
 #### Risk Matrix
+- Catastrophic: ctr
+- Critical: cr
 Impact\Likelihood |	Very Low |	Low	| Medium | High | Very High
 ---|---|---|---|---|---
-Very Low |	Trivial |	Minor |	Minor |	Major | Critical
-Low	| Minor | Minor | Major | Major | Critical
-Medium |	Minor	| Major	| Major	| Critical	| Catastrophic
-High	| Major	| Major	| Critical |	Catastrophic |	Catastrophic
-Very High	| Major | Critical| Catastrophic| Catastrophic	| Catastrophi
--------------------------------------------------------------------------------------------------
+Very Low |Trivial|Minor |Minor |Major | cr
+Low	| Minor | Minor | Major | Major | cr
+Medium |Minor| Major| Major	| cr| ctr
+High| Major	| Major	| cr |ctr |ctr
+Very High| Major | cr| ctr| ctr|ctr
+
 ### Threat Model Frameworks
 - STRIDE
 - DREAD
@@ -46,9 +48,9 @@ Very High	| Major | Critical| Catastrophic| Catastrophic	| Catastrophi
 - Denial of Service - Aims to render a service or system unusable
 - Elevation of Privilege - A user performs actions not intended for their level of permissions
 
-------------------------------------------------------------------------------------------------
 ### Context
-- Threat Models: The process for identifying potential security threats and vulnerabilities, evaluating the risk, determining mitigations for such threats, and prioritizing any mitigations or fixes to the system.
+- Threat Models: The process for identifying potential security threats and vulnerabilities, 
+evaluating the risk, determining mitigations for such threats, and prioritizing any mitigations or fixes to the system.
 - Vulnerability: It is a weakness in a system or software that can be exploited to make a system behave in an unintended way.
 
 - Threat: A threat is a hypothetical event wherein an attacker could use (or exploit) a vulnerability.

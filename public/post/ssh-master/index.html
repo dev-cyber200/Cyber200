@@ -334,13 +334,13 @@ After the secure channel is established, the client needs to authenticate itself
 <ul>
 <li>It forwards a port from your local machine to a remote server. This can be useful for accessing services on a remote server as if they were running on your local machine.</li>
 <li>Example Scenario:</li>
-<li>You want to access a web application running on port 8080 on a remote server (remote.example.com) from your local machine on port 8080.</li>
+<li>You want to access a web application running on port 8080 on a remote server (rt.com) from your local machine on port 8080.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>ssh -L 8080:localhost:8080 user@remote.example.com
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>ssh -L 8080:localhost:8080 user@rt.com
 </span></span></code></pre></div><ul>
 <li>L: Specifies local port forwarding.</li>
 <li>8080:localhost:8080: Redirects traffic from localhost:8080 on your local machine to localhost:8080 on the remote server.</li>
-<li><a href="mailto:user@remote.example.com">user@remote.example.com</a>: Your SSH login credentials for the remote server.</li>
+<li><a href="mailto:user@rt.com">user@rt.com</a>: Your SSH login credentials for the remote server.</li>
 </ul>
 </li>
 <li>
@@ -348,13 +348,13 @@ After the secure channel is established, the client needs to authenticate itself
 <ul>
 <li>It allows you to forward a port from a remote server to your local machine. This can be useful for exposing a service on your local machine to users on a remote server.</li>
 <li>Example Scenario:</li>
-<li>You want to allow users on the remote server (remote.example.com) to access a web application running on port 8080 on your local machine.</li>
+<li>You want to allow users on the remote server (rt.com) to access a web application running on port 8080 on your local machine.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>ssh -R 9090:localhost:8080 user@remote.example.com
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>ssh -R 9090:localhost:8080 user@rt.com
 </span></span></code></pre></div><ul>
 <li>-R: Specifies remote port forwarding.</li>
 <li>9090:localhost:8080: Redirects traffic from localhost:9090 on the remote server to localhost:8080 on your local machine.</li>
-<li><a href="mailto:user@remote.example.com">user@remote.example.com</a>: Your SSH login credentials for the remote server.</li>
+<li><a href="mailto:user@rt.com">user@rt.com</a>: Your SSH login credentials for the remote server.</li>
 </ul>
 </li>
 <li>
@@ -370,11 +370,11 @@ After the secure channel is established, the client needs to authenticate itself
 <p>You want to route your web browser&rsquo;s traffic through an SSH server to securely access various websites.</p>
 </li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>ssh -D <span style="color:#ae81ff">1080</span> user@remote.example.com
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>ssh -D <span style="color:#ae81ff">1080</span> user@rt.com
 </span></span></code></pre></div><ul>
 <li>-D: Specifies dynamic port forwarding.</li>
 <li>1080: The local port on which the SOCKS proxy server will listen.</li>
-<li><a href="mailto:user@remote.example.com">user@remote.example.com</a>: Your SSH login credentials for the remote server.</li>
+<li><a href="mailto:user@rt.com">user@rt.com</a>: Your SSH login credentials for the remote server.</li>
 </ul>
 </li>
 </ul>
