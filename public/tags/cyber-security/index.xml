@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cyber-Security on Cyber200</title>
+    <link>http://localhost:1313/tags/cyber-security/</link>
+    <description>Recent content in Cyber-Security on Cyber200</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cyber-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Review and Audit</title>
+      <link>http://localhost:1313/post/review-and-audit/</link>
+      <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/review-and-audit/</guid>
+      <description>Infrastructure and Control Audits Controls: The measures an organization takes to reduce risk.&#xA;Preventive: Security measures to stop an event from occurring.</description>
+    </item>
+    <item>
+      <title>Risk Evaluation</title>
+      <link>http://localhost:1313/post/risk-evaluation/</link>
+      <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/risk-evaluation/</guid>
+      <description>Tools and Techniques for Risk Evaluation Risk Matrix: A visual tool that plots risks on a grid based on their likelihood and impact.</description>
+    </item>
+    <item>
+      <title>Defensive Techniques</title>
+      <link>http://localhost:1313/post/defensive-techniques/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/defensive-techniques/</guid>
+      <description>Network Security Firewalls: Firewalls act as a barrier between trusted and untrusted networks. They monitor and control incoming and outgoing network traffic based on predetermined security rules.</description>
+    </item>
+    <item>
+      <title>Offensive Techniques</title>
+      <link>http://localhost:1313/post/offensive-techniques/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/offensive-techniques/</guid>
+      <description>Reconnaissance Passive Reconnaissance&#xA;Footprinting: Gathering information about the target without directly interacting with it. This includes collecting data from publicly available sources such as websites, social media, and public records.</description>
+    </item>
+    <item>
+      <title>Security Principles</title>
+      <link>http://localhost:1313/post/security-principles/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/security-principles/</guid>
+      <description>CIA Triad Confidentiality: Keeping data secret or private. Integrity: Ensuring the legitimacy of data so it can be trusted. Availability: Ensuring networks, systems, and applications are up and running.</description>
+    </item>
+    <item>
+      <title>Significant Virus Events</title>
+      <link>http://localhost:1313/post/significant-virus-events/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/significant-virus-events/</guid>
+      <description>1971 - The Creeper Virus: created by Bob Thomas, is often considered the first computer virus. It was designed as an experimental self-replicating program that infected ARPANET systems, displaying the message &amp;ldquo;I&amp;rsquo;m the creeper: catch me if you can.</description>
+    </item>
+  </channel>
+</rss>

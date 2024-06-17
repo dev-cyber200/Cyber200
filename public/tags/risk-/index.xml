@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Risk- on Cyber200</title>
+    <link>http://localhost:1313/tags/risk-/</link>
+    <description>Recent content in Risk- on Cyber200</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/risk-/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Risk Evaluation</title>
+      <link>http://localhost:1313/post/risk-evaluation/</link>
+      <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/risk-evaluation/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

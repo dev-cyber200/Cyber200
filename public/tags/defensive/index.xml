@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Defensive on Cyber200</title>
+    <link>http://localhost:1313/tags/defensive/</link>
+    <description>Recent content in Defensive on Cyber200</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/defensive/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Defensive Techniques</title>
+      <link>http://localhost:1313/post/defensive-techniques/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/defensive-techniques/</guid>
+      <description>Network Security Firewalls: Firewalls act as a barrier between trusted and untrusted networks. They monitor and control incoming and outgoing network traffic based on predetermined security rules.</description>
+    </item>
+  </channel>
+</rss>

@@ -6,13 +6,62 @@
     <description>Recent content in Tags on Cyber200</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Audit</title>
+      <link>http://localhost:1313/tags/audit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/audit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cyber-Security</title>
+      <link>http://localhost:1313/tags/cyber-security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cyber-security/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Index</title>
       <link>http://localhost:1313/tags/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/index/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Risk-Evaluation</title>
+      <link>http://localhost:1313/tags/risk-evaluation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/risk-evaluation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Defensive</title>
+      <link>http://localhost:1313/tags/defensive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/defensive/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Offensive</title>
+      <link>http://localhost:1313/tags/offensive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/offensive/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Principles</title>
+      <link>http://localhost:1313/tags/principles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/principles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Virus</title>
+      <link>http://localhost:1313/tags/virus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/virus/</guid>
       <description></description>
     </item>
     <item>

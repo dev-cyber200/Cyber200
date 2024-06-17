@@ -3,10 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/audit/</loc>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cyber-security/</loc>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/index/</loc>
-    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/review-and-audit/</loc>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/risk-evaluation/</loc>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/risk-evaluation/</loc>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/defensive/</loc>
+    <lastmod>2024-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/defensive-techniques/</loc>
+    <lastmod>2024-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/offensive/</loc>
+    <lastmod>2024-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/offensive-techniques/</loc>
+    <lastmod>2024-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/principles/</loc>
+    <lastmod>2024-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/security-principles/</loc>
+    <lastmod>2024-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/significant-virus-events/</loc>
+    <lastmod>2024-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/virus/</loc>
+    <lastmod>2024-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2024-06-08T00:00:00+00:00</lastmod>
@@ -17,13 +62,7 @@
     <loc>http://localhost:1313/post/log-management-in-linux/</loc>
     <lastmod>2024-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/systemd-journal-and-var-log/</loc>
-    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-06-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/hardware/</loc>
