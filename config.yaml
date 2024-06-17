@@ -85,4 +85,4 @@ services:
   disqus:
     shortname: cyber200
 
-paginate: 5
+paginate: 10
