@@ -73,6 +73,14 @@ tags = [
     - Post-Exploitation: Assessing the potential impact and extracting data
     - Reporting: Documenting findings and recommendations
 
+9714296000
+portland
+- 45m virtual visit $350(332): history, treatment, test
+- 1.5month to complete
+- 8960, 4300-5000, 5% discount, <10000
+- 800/year continuing freezing
+- multi cycle discount
+
 ## 4. Findings
 - Summary Table
 - Detailed Findings
