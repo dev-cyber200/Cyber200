@@ -92,7 +92,7 @@ In order to build a robust FIM service, we need to answer some important questio
     - define packs /usr/share/osquery/packs/fim.conf
     - edit fim.conf refer [docs](https://osquery.readthedocs.io/en/stable/deployment/file-integrity-monitoring/#example-fim-config)
 - Create/Update the osquery Config File osquery.conf 
-    - add "fim": <path-to-fim.conf> to packs
+    - add "fim": git ad<path-to-fim.conf> to packs
 
 - Restart Osquery and Test the Setup
     - `sudo service osqueryd restart`
